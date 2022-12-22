@@ -2,7 +2,7 @@
 #include <vector>
 #include <algorithm>
 #include <string>
-
+#include <fstream>
 using namespace std;
 
 enum class PixelType
@@ -17,26 +17,37 @@ class Image
 {
 private:
     vector<vector<int>> image;
+
 public:
     Image(int width, int height);
     ~Image();
 
-    int *getBox(int pixelX, int pixelY, int boxWidth, int boxHeight);
-    //int getMedian(int size);
-    
+    int* getBox(int pixelX, int pixelY, int boxWidth, int boxHeight);
+    // int getMedian(int size);
+
     int getPixel(int pixelX, int pixelY);
     void setPixel(int pixelX, int pixelY, int value);
 
-    //PixelType pixelType(int pixelX, int pixelY);
+    // PixelType pixelType(int pixelX, int pixelY);
 
+    void ReadInputFile(int size, ifstream& inputFile);
 };
 
-//int loadBalancer(int workerThreads, int rows){}
-
-int main(int argc, char const *argv[])
+/*int loadBalancer(int workerThreads, int rows) {
+}*/
+int main(int argc, char** argv)
 {
-    Image inputImg;
-    Image outputImg;
+    ifstream inputFile("inputFile.txt");
+    if (!inputFile.is_open())
+        cout << "Could not open the file" << endl;
+    int MatrixSize;
+    inputFile >> MatrixSize;
+
+    Image inputImg(MatrixSize, MatrixSize);
+
+    inputImg.ReadInputFile(MatrixSize, inputFile);
+
+    Image outputImg(MatrixSize, MatrixSize);
     return 0;
 }
 
@@ -44,9 +55,11 @@ int main(int argc, char const *argv[])
 
 Image::Image(int width, int height)
 {
-    for(int i = 0; i < height; i++){
+    for (int i = 0; i < height; i++) {
         vector<int> row;
-        for(int j = 0; j < width; j++){
+
+        for (int j = 0; j < width; j++) {
+
             row.push_back(-1);
         }
         image.push_back(row);
@@ -67,7 +80,6 @@ int Image::getPixel(int pixelX, int pixelY) {
     return image[pixelY][pixelX];
 
 };
-
 int* Image::getBox(int pixelX, int pixelY, int boxWidth, int boxHeight) {
     static int arrBox[9];
     pixelX--;
@@ -83,5 +95,15 @@ int* Image::getBox(int pixelX, int pixelY, int boxWidth, int boxHeight) {
     }
     return arrBox;
 };
-
-
+void Image::ReadInputFile(int size, ifstream& inputFile)
+{
+    int value;
+    for (int i = 0; i < size; i++)
+    {
+        for (int j = 0; j < size; j++)
+        {
+            inputFile >> value;
+            setPixel(j, i, value);
+        }
+    }
+};
