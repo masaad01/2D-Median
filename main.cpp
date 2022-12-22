@@ -5,14 +5,14 @@
 #include <fstream>
 using namespace std;
 
+
+// class declarations
 enum class PixelType
 {
     Dark,
     Bright,
     Normal
 };
-
-
 class Image
 {
 private:
@@ -24,6 +24,9 @@ public:
     Image(int width, int height);
     ~Image();
 
+    int getHeight() { return height; }
+    int getWidth() { return width; }
+
     int* getBox(int pixelX, int pixelY, int boxWidth, int boxHeight);
     int getMedian(int pixelX, int pixelY, int boxWidth, int boxHeight);
 
@@ -33,28 +36,62 @@ public:
     PixelType getPixelType(int pixelX, int pixelY);
 
     void ReadInputFile(ifstream& inputFile);
+    void WriteOutputFile(ofstream& outputFile);
 };
 
-/*int loadBalancer(int workerThreads, int rows) {
-}*/
+// function declarations
+int cstringToInt(char* cstring);
+void processImage(Image& inputImg, Image& outputImg, int workerThreads);
+
 int main(int argc, char** argv)
 {
-    int workerThreads = cstringToInt(argv[1]);
+    int workerThreads = 1;
+    if (argc == 2)
+        workerThreads = cstringToInt(argv[1]);
+    
+    ifstream inputFile("in.txt");
+    ofstream outputFile("out.txt");
+
+    if (!inputFile.is_open()){
+        cout << "Could not open in.txt" << endl;
+        return 1;
+    }
+    if (!outputFile.is_open()){
+        cout << "Could not open out.txt" << endl;
+        return 1;
+    }
+
     int MatrixSize;
+    inputFile >> MatrixSize;
 
     Image inputImg(MatrixSize, MatrixSize);
     Image outputImg(MatrixSize, MatrixSize);
-    
-    ifstream inputFile("in.txt");
-    if (!inputFile.is_open())
-        cout << "Could not open the file" << endl;
-    
-    inputFile >> MatrixSize;
+
     inputImg.ReadInputFile(inputFile);
+
+    processImage(inputImg, outputImg, workerThreads);
+
+    outputImg.WriteOutputFile(outputFile);
 
     return 0;
 }
 
+// function definitions
+void processImage(Image& inputImg, Image& outputImg, int workerThreads)
+{
+    int height = inputImg.getHeight();
+    int width = inputImg.getWidth();
+
+    for (int i = 0; i < height; i++)
+    {
+        for (int j = 0; j < width; j++)
+        {
+            // just copy the input image to the output image for now (for testing only)
+            int pixel = inputImg.getPixel(j, i);
+            outputImg.setPixel(j, i, pixel);
+        }
+    }
+}
 
 // class functions
 Image::Image(int width, int height)
@@ -82,23 +119,26 @@ void Image::setPixel(int pixelX, int pixelY, int value) {
 
 };
 int Image::getPixel(int pixelX, int pixelY) {
-
+    if(pixelX < 0 || pixelY < 0 || pixelX >= width || pixelY >= height)
+        return 0;
     return image[pixelY][pixelX];
-
 };
 int* Image::getBox(int pixelX, int pixelY, int boxWidth, int boxHeight) {
-    int arrBox[9];
-    pixelX--;
-    pixelY--;
-    for (int i = 0; i < 3; i++)
-    {
-        for (int j = 0; j < 3; j++) {
-            if ((pixelX + j) >= boxWidth || (pixelY + i) >= boxHeight || (pixelX + j) < 0 || (pixelY + i) < 0)
-                arrBox[i * 3 + j] = 0;
-            else
-                arrBox[i * 3 + j] = image[pixelY + i][pixelX + j];
-        }
-    }
+    int *arrBox = new int[boxWidth * boxHeight];
+    for(int i = 0; i < boxHeight; i++)
+        for (int j = 0; j < boxWidth; j++)
+            arrBox[i * boxWidth + j] = getPixel(pixelX + j, pixelY + i);
+    // pixelX--;
+    // pixelY--;
+    // for (int i = 0; i < 3; i++)
+    // {
+    //     for (int j = 0; j < 3; j++) {
+    //         if ((pixelX + j) >= boxWidth || (pixelY + i) >= boxHeight || (pixelX + j) < 0 || (pixelY + i) < 0)
+    //             arrBox[i * 3 + j] = 0;
+    //         else
+    //             arrBox[i * 3 + j] = image[pixelY + i][pixelX + j];
+    //     }
+    // }
     return arrBox;
 };
 PixelType Image::getPixelType(int pixelX, int pixelY){
@@ -122,7 +162,17 @@ void Image::ReadInputFile(ifstream& inputFile)
         }
     }
 };
-
+void Image::WriteOutputFile(ofstream& outputFile)
+{
+    for (int i = 0; i < height; i++)
+    {
+        for (int j = 0; j < width; j++)
+        {
+            outputFile << getPixel(j, i) << " ";
+        }
+        outputFile << endl;
+    }
+};
 // utility functions
 
 int cstringToInt(char* cstring)
