@@ -58,7 +58,7 @@ Image::~Image()
 }
 void Image::setPixel(int pixelX, int pixelY, int value) {
 
-    image[pixelY][pixelY] = value;
+    image[pixelY][pixelX] = value;
 
 
 };
