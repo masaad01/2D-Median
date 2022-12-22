@@ -198,7 +198,7 @@ int Image::getMedian(int pixelX, int pixelY, int boxWidth, int boxHeight );
  for (int i =0 ; i <s ; i++ )
  {
     arr[i]=*(p);
-    p++
+    p++ ; 
  }
  sort(arr , arr +s ) ; 
  return arr[med] ; 
