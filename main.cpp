@@ -56,18 +56,19 @@ Image::Image(int width, int height)
 Image::~Image()
 {
 }
-void setPixel(int pixelX, int pixelY, int value) {
+void Image::setPixel(int pixelX, int pixelY, int value) {
 
     image[pixelY][pixelY] = value;
 
 
 };
-int getPixel(int pixelX, int pixelY) {
+int Image::getPixel(int pixelX, int pixelY) {
 
     return image[pixelY][pixelX];
 
 };
-int* getBox(int pixelX, int pixelY, int boxWidth, int boxHeight) {
+
+int* Image::getBox(int pixelX, int pixelY, int boxWidth, int boxHeight) {
     static int arrBox[9];
     pixelX--;
     pixelY--;
@@ -82,3 +83,5 @@ int* getBox(int pixelX, int pixelY, int boxWidth, int boxHeight) {
     }
     return arrBox;
 };
+
+
