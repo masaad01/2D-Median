@@ -188,12 +188,12 @@ int cstringToInt(char* cstring)
 }
 
 
-int Image::getMedian( pixelX, pixelY,  boxWidth,  boxHeight )
+int Image::getMedian( int pixelX, int pixelY, int boxWidth, int boxHeight )
 {
  
  int s = boxHeight*boxWidth ; 
  int med = s/2 +1 ; 
- int *p = getBox(int pixelX, int pixelY, int boxWidth, int boxHeight) ; 
+ int *p = getBox( pixelX, pixelY, boxWidth, boxHeight) ; 
  int arr[s] ; 
  for (int i =0 ; i <s ; i++ )
  {
