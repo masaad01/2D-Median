@@ -173,21 +173,6 @@ void Image::WriteOutputFile(ofstream& outputFile)
         outputFile << endl;
     }
 };
-// utility functions
-
-int cstringToInt(char* cstring)
-{
-    int result = 0;
-    int i = 0;
-    while (cstring[i] != '\0')
-    {
-        result = result * 10 + (cstring[i] - '0');
-        i++;
-    }
-    return result;
-}
-
-
 int Image::getMedian( int pixelX, int pixelY, int boxWidth, int boxHeight )
 {
  
@@ -203,3 +188,18 @@ int Image::getMedian( int pixelX, int pixelY, int boxWidth, int boxHeight )
  sort(arr , arr +s ) ; 
  return arr[med] ; 
 }
+
+// utility functions
+
+int cstringToInt(char* cstring)
+{
+    int result = 0;
+    int i = 0;
+    while (cstring[i] != '\0')
+    {
+        result = result * 10 + (cstring[i] - '0');
+        i++;
+    }
+    return result;
+}
+
