@@ -27,7 +27,7 @@ public:
     int getHeight() { return height; }
     int getWidth() { return width; }
 
-    int* getBox(int pixelX, int pixelY, int boxWidth, int boxHeight);
+    void getBox(int arrBox[],int pixelX, int pixelY, int boxWidth, int boxHeight);
     int getMedian(int pixelX, int pixelY, int boxWidth, int boxHeight);
 
     int getPixel(int pixelX, int pixelY);
@@ -87,7 +87,7 @@ void processImage(Image& inputImg, Image& outputImg, int workerThreads)
         for (int j = 0; j < width; j++)
         {
             // just copy the input image to the output image for now (for testing only)
-            int pixel = inputImg.getPixel(j, i);
+            int pixel = inputImg.getMedian(j, i, 3, 3);
             outputImg.setPixel(j, i, pixel);
         }
     }
@@ -123,23 +123,18 @@ int Image::getPixel(int pixelX, int pixelY) {
         return 0;
     return image[pixelY][pixelX];
 };
-int* Image::getBox(int pixelX, int pixelY, int boxWidth, int boxHeight) {
-    int *arrBox = new int[boxWidth * boxHeight];
-    for(int i = 0; i < boxHeight; i++)
-        for (int j = 0; j < boxWidth; j++)
-            arrBox[i * boxWidth + j] = getPixel(pixelX + j, pixelY + i);
-    // pixelX--;
-    // pixelY--;
-    // for (int i = 0; i < 3; i++)
-    // {
-    //     for (int j = 0; j < 3; j++) {
-    //         if ((pixelX + j) >= boxWidth || (pixelY + i) >= boxHeight || (pixelX + j) < 0 || (pixelY + i) < 0)
-    //             arrBox[i * 3 + j] = 0;
-    //         else
-    //             arrBox[i * 3 + j] = image[pixelY + i][pixelX + j];
-    //     }
-    // }
-    return arrBox;
+void Image::getBox(int arrBox[] ,int pixelX, int pixelY, int boxWidth, int boxHeight) {
+    pixelX--;
+    pixelY--;
+    for (int i = 0; i < boxHeight; i++)
+    {
+        for (int j = 0; j < boxWidth; j++) {
+            if ((pixelX + j) >= this->width || (pixelY + i) >= this->height || (pixelX + j) < 0 || (pixelY + i) < 0)
+                arrBox[i * 3 + j] = 0;
+            else
+                arrBox[i * 3 + j] = image[pixelY + i][pixelX + j];
+        }
+    }
 };
 PixelType Image::getPixelType(int pixelX, int pixelY){
     int value = getPixel(pixelX, pixelY);
@@ -178,13 +173,8 @@ int Image::getMedian( int pixelX, int pixelY, int boxWidth, int boxHeight )
  
  int s = boxHeight*boxWidth ; 
  int med = s/2 +1 ; 
- int *p = getBox( pixelX, pixelY, boxWidth, boxHeight) ; 
  int arr[s] ; 
- for (int i =0 ; i <s ; i++ )
- {
-    arr[i]=*(p);
-    p++ ; 
- }
+ getBox(arr, pixelX, pixelY, boxWidth, boxHeight) ; 
  sort(arr , arr +s ) ; 
  return arr[med] ; 
 }
