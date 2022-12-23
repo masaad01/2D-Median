@@ -188,7 +188,7 @@ int cstringToInt(char* cstring)
 }
 
 
-int Image::getMedian(int pixelX, int pixelY, int boxWidth, int boxHeight );
+int Image::getMedian(int pixelX, int pixelY, int boxWidth, int boxHeight )
 {
  
  int s = boxHeight*boxWidth ; 
