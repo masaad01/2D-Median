@@ -5,7 +5,6 @@
 #include <fstream>
 using namespace std;
 
-
 // class declarations
 enum class PixelType
 {
@@ -27,7 +26,7 @@ public:
     int getHeight() { return height; }
     int getWidth() { return width; }
 
-    void getBox(int arrBox[],int pixelX, int pixelY, int boxWidth, int boxHeight);
+    void getBox(int arrBox[], int pixelX, int pixelY, int boxWidth, int boxHeight);
     int getMedian(int pixelX, int pixelY, int boxWidth, int boxHeight);
 
     int getPixel(int pixelX, int pixelY);
@@ -35,28 +34,30 @@ public:
 
     PixelType getPixelType(int pixelX, int pixelY);
 
-    void ReadInputFile(ifstream& inputFile);
-    void WriteOutputFile(ofstream& outputFile);
+    void ReadInputFile(ifstream &inputFile);
+    void WriteOutputFile(ofstream &outputFile);
 };
 
 // function declarations
-int cstringToInt(char* cstring);
-void processImage(Image& inputImg, Image& outputImg, int workerThreads);
+int cstringToInt(char *cstring);
+void processImage(Image &inputImg, Image &outputImg, int workerThreads);
 
-int main(int argc, char** argv)
+int main(int argc, char **argv)
 {
     int workerThreads = 1;
     if (argc == 2)
         workerThreads = cstringToInt(argv[1]);
-    
+
     ifstream inputFile("in.txt");
     ofstream outputFile("out.txt");
 
-    if (!inputFile.is_open()){
+    if (!inputFile.is_open())
+    {
         cout << "Could not open in.txt" << endl;
         return 1;
     }
-    if (!outputFile.is_open()){
+    if (!outputFile.is_open())
+    {
         cout << "Could not open out.txt" << endl;
         return 1;
     }
@@ -77,7 +78,7 @@ int main(int argc, char** argv)
 }
 
 // function definitions
-void processImage(Image& inputImg, Image& outputImg, int workerThreads)
+void processImage(Image &inputImg, Image &outputImg, int workerThreads)
 {
     int height = inputImg.getHeight();
     int width = inputImg.getWidth();
@@ -86,7 +87,6 @@ void processImage(Image& inputImg, Image& outputImg, int workerThreads)
     {
         for (int j = 0; j < width; j++)
         {
-            // just copy the input image to the output image for now (for testing only)
             int pixel = inputImg.getMedian(j, i, 3, 3);
             outputImg.setPixel(j, i, pixel);
         }
@@ -98,10 +98,12 @@ Image::Image(int width, int height)
 {
     this->width = width;
     this->height = height;
-    for (int i = 0; i < height; i++) {
+    for (int i = 0; i < height; i++)
+    {
         vector<int> row;
 
-        for (int j = 0; j < width; j++) {
+        for (int j = 0; j < width; j++)
+        {
 
             row.push_back(-1);
         }
@@ -112,23 +114,25 @@ Image::Image(int width, int height)
 Image::~Image()
 {
 }
-void Image::setPixel(int pixelX, int pixelY, int value) {
+void Image::setPixel(int pixelX, int pixelY, int value)
+{
 
     image[pixelY][pixelX] = value;
-
-
 };
-int Image::getPixel(int pixelX, int pixelY) {
-    if(pixelX < 0 || pixelY < 0 || pixelX >= width || pixelY >= height)
+int Image::getPixel(int pixelX, int pixelY)
+{
+    if (pixelX < 0 || pixelY < 0 || pixelX >= width || pixelY >= height)
         return 0;
     return image[pixelY][pixelX];
 };
-void Image::getBox(int arrBox[] ,int pixelX, int pixelY, int boxWidth, int boxHeight) {
+void Image::getBox(int arrBox[], int pixelX, int pixelY, int boxWidth, int boxHeight)
+{
     pixelX--;
     pixelY--;
     for (int i = 0; i < boxHeight; i++)
     {
-        for (int j = 0; j < boxWidth; j++) {
+        for (int j = 0; j < boxWidth; j++)
+        {
             if ((pixelX + j) >= this->width || (pixelY + i) >= this->height || (pixelX + j) < 0 || (pixelY + i) < 0)
                 arrBox[i * 3 + j] = 0;
             else
@@ -136,7 +140,8 @@ void Image::getBox(int arrBox[] ,int pixelX, int pixelY, int boxWidth, int boxHe
         }
     }
 };
-PixelType Image::getPixelType(int pixelX, int pixelY){
+PixelType Image::getPixelType(int pixelX, int pixelY)
+{
     int value = getPixel(pixelX, pixelY);
     if (value < 50)
         return PixelType::Dark;
@@ -145,7 +150,7 @@ PixelType Image::getPixelType(int pixelX, int pixelY){
     else
         return PixelType::Normal;
 }
-void Image::ReadInputFile(ifstream& inputFile)
+void Image::ReadInputFile(ifstream &inputFile)
 {
     int value;
     for (int i = 0; i < height; i++)
@@ -157,7 +162,7 @@ void Image::ReadInputFile(ifstream& inputFile)
         }
     }
 };
-void Image::WriteOutputFile(ofstream& outputFile)
+void Image::WriteOutputFile(ofstream &outputFile)
 {
     for (int i = 0; i < height; i++)
     {
@@ -168,20 +173,20 @@ void Image::WriteOutputFile(ofstream& outputFile)
         outputFile << endl;
     }
 };
-int Image::getMedian( int pixelX, int pixelY, int boxWidth, int boxHeight )
+int Image::getMedian(int pixelX, int pixelY, int boxWidth, int boxHeight)
 {
- 
- int s = boxHeight*boxWidth ; 
- int med = s/2 +1 ; 
- int arr[s] ; 
- getBox(arr, pixelX, pixelY, boxWidth, boxHeight) ; 
- sort(arr , arr +s ) ; 
- return arr[med] ; 
+
+    int s = boxHeight * boxWidth;
+    int med = s / 2 + 1;
+    int arr[s];
+    getBox(arr, pixelX, pixelY, boxWidth, boxHeight);
+    sort(arr, arr + s);
+    return arr[med];
 }
 
 // utility functions
 
-int cstringToInt(char* cstring)
+int cstringToInt(char *cstring)
 {
     int result = 0;
     int i = 0;
@@ -192,4 +197,3 @@ int cstringToInt(char* cstring)
     }
     return result;
 }
-
