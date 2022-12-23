@@ -78,19 +78,54 @@ int main(int argc, char **argv)
 }
 
 // function definitions
+void processPixels(int id, Image &inputImg, Image &outputImg, int startPixel, int endPixel)
+{
+    int bright = 0;
+    int dark = 0;
+    int normal = 0;
+
+    cout <<"ThreadID="<<id<<", startRow="<<startPixel / inputImg.getWidth()<<", startCol="<<startPixel % inputImg.getWidth()
+        <<", endRow="<<endPixel / inputImg.getWidth()<<", endCol="<<endPixel % inputImg.getWidth()<<endl;
+
+    for (int i = startPixel; i < endPixel;i++)
+    {
+        int y = i / inputImg.getWidth(); // row
+        int x = i % inputImg.getWidth(); // col
+        
+        int newValue = inputImg.getMedian(x, y, 3, 3);
+        outputImg.setPixel(x, y, newValue);
+
+        switch (inputImg.getPixelType(x, y))
+        {
+        case PixelType::Bright :
+            bright++;
+            break;
+        case PixelType::Dark :
+            dark++;
+            break;
+        case PixelType::Normal :
+            normal++;
+            break;
+        }
+    }
+
+    cout << "ThreadID=" << id << ", numOfBright=" << bright << ", numOfDark=" << dark << ", numOfNormal=" << normal << endl;
+}
+
 void processImage(Image &inputImg, Image &outputImg, int workerThreads)
 {
     int height = inputImg.getHeight();
     int width = inputImg.getWidth();
 
-    for (int i = 0; i < height; i++)
+    int totalPixels = height * width;
+
+    for(int i = 0; i < totalPixels; i++)
     {
-        for (int j = 0; j < width; j++)
-        {
-            int pixel = inputImg.getMedian(j, i, 3, 3);
-            outputImg.setPixel(j, i, pixel);
-        }
+        int startPixel;
+        int endPixel;
+
     }
+    // processPixels(0, inputImg, outputImg, 0, totalPixels - 1);
 }
 
 int loadblancing(int workThreads, int pixelSize, int index)
@@ -174,9 +209,9 @@ void Image::getBox(int arrBox[], int pixelX, int pixelY, int boxWidth, int boxHe
         for (int j = 0; j < boxWidth; j++)
         {
             if ((pixelX + j) >= this->width || (pixelY + i) >= this->height || (pixelX + j) < 0 || (pixelY + i) < 0)
-                arrBox[i * 3 + j] = 0;
+                arrBox[i * boxWidth + j] = 0;
             else
-                arrBox[i * 3 + j] = image[pixelY + i][pixelX + j];
+                arrBox[i * boxWidth + j] = image[pixelY + i][pixelX + j];
         }
     }
 };
