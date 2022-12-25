@@ -130,13 +130,16 @@ void processImage(Image &inputImg, Image &outputImg, int workerThreads)
 
 int loadblancing(int workThreads, int pixelSize, int index)
 {
+    int arr[workThreads+1] ; 
+    int start , end ; 
+    float r = pixelSize / workThreads;
+    int ch = pixelSize % workThreads;
     if (arr[1] == 0)
     {
         int arr[workThreads];
         arr[0] = 0;
 
-        float r = pixelSize / workThreads;
-        int ch = totalPixels % workerThreads;
+
         if (!ch)
         {
             for (int i = 1; i <= workThreads; i++)
@@ -163,10 +166,12 @@ int loadblancing(int workThreads, int pixelSize, int index)
         {
             return start = 0, end = r;
         }
-        int start = arr[index - 1] + 1, end = arr[index];
-        return start, end
+         start = arr[index - 1] + 1 , end = arr[index];
+        return start, end;
     }
 }
+
+
 
 // class functions
 Image::Image(int width, int height)
