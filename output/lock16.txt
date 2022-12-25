@@ -1,0 +1,33 @@
+ThreadID=0, startRow=0, startCol=0, endRow=0, endCol=4
+ThreadID=3, startRow=1, startCol=4, endRow=2, endCol=0
+ThreadID=1, startRow=0, startCol=4, endRow=1, endCol=0
+ThreadID=0, numofBright=0,numOfDark=4, numofNormal=0
+ThreadID=2, startRow=1, startCol=0, endRow=1, endCol=4
+ThreadID=4, startRow=2, startCol=0, endRow=2, endCol=4
+ThreadID=3, numofBright=0,numOfDark=3, numofNormal=1
+ThreadID=1, numofBright=0,numOfDark=4, numofNormal=0
+ThreadID=2, numofBright=0,numOfDark=4, numofNormal=0
+ThreadID=4, numofBright=0,numOfDark=4, numofNormal=0
+ThreadID=5, startRow=2, startCol=4, endRow=3, endCol=0
+ThreadID=5, numofBright=0,numOfDark=3, numofNormal=1
+ThreadID=7, startRow=3, startCol=4, endRow=4, endCol=0
+ThreadID=6, startRow=3, startCol=0, endRow=3, endCol=4
+ThreadID=7, numofBright=1,numOfDark=3, numofNormal=0
+ThreadID=6, numofBright=1,numOfDark=3, numofNormal=0
+ThreadID=8, startRow=4, startCol=0, endRow=4, endCol=4
+ThreadID=8, numofBright=0,numOfDark=4, numofNormal=0
+ThreadID=10, startRow=5, startCol=0, endRow=5, endCol=4
+ThreadID=9, startRow=4, startCol=4, endRow=5, endCol=0
+ThreadID=10, numofBright=0,numOfDark=4, numofNormal=0
+ThreadID=9, numofBright=0,numOfDark=3, numofNormal=1
+ThreadID=11, startRow=5, startCol=4, endRow=6, endCol=0
+ThreadID=11, numofBright=0,numOfDark=3, numofNormal=1
+ThreadID=12, startRow=6, startCol=0, endRow=6, endCol=4
+ThreadID=13, startRow=6, startCol=4, endRow=7, endCol=0
+ThreadID=12, numofBright=0,numOfDark=4, numofNormal=0
+ThreadID=14, startRow=7, startCol=0, endRow=7, endCol=4
+ThreadID=13, numofBright=0,numOfDark=3, numofNormal=1
+ThreadID=14, numofBright=0,numOfDark=4, numofNormal=0
+ThreadID=15, startRow=7, startCol=4, endRow=8, endCol=0
+ThreadID=15, numofBright=0,numOfDark=4, numofNormal=0
+Main: numOfBright=2, numOfDark=57, numOfNormal=5

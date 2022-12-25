@@ -1,0 +1,3 @@
+ThreadID=0, startRow=0, startCol=0, endRow=8, endCol=0
+ThreadID=0, numofBright=2,numOfDark=57, numofNormal=5
+Main: numOfBright=2, numOfDark=57, numOfNormal=5

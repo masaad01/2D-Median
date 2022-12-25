@@ -1,0 +1,2049 @@
+ThreadID=0, startRow=0, startCol=0, endRow=0, endCol=0
+ThreadID=0, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=1, startRow=0, startCol=0, endRow=0, endCol=1
+ThreadID=2, startRow=0, startCol=1, endRow=0, endCol=2
+ThreadID=1, numofBright=0,numOfDark=1, numofNormal=0
+ThreadID=2, numofBright=0,numOfDark=1, numofNormal=0
+ThreadID=3, startRow=0, startCol=2, endRow=0, endCol=3
+ThreadID=3, numofBright=0,numOfDark=1, numofNormal=0
+ThreadID=5, startRow=0, startCol=4, endRow=0, endCol=5
+ThreadID=5, numofBright=0,numOfDark=1, numofNormal=0
+ThreadID=6, startRow=0, startCol=5, endRow=0, endCol=6
+ThreadID=6, numofBright=0,numOfDark=1, numofNormal=0
+ThreadID=7, startRow=0, startCol=6, endRow=0, endCol=7
+ThreadID=7, numofBright=0,numOfDark=1, numofNormal=0
+ThreadID=8, startRow=0, startCol=7, endRow=1, endCol=0
+ThreadID=8, numofBright=0,numOfDark=1, numofNormal=0
+ThreadID=9, startRow=1, startCol=0, endRow=1, endCol=1
+ThreadID=9, numofBright=0,numOfDark=1, numofNormal=0
+ThreadID=10, startRow=1, startCol=1, endRow=1, endCol=2
+ThreadID=10, numofBright=0,numOfDark=1, numofNormal=0
+ThreadID=12, startRow=1, startCol=3, endRow=1, endCol=4
+ThreadID=12, numofBright=0,numOfDark=1, numofNormal=0
+ThreadID=13, startRow=1, startCol=4, endRow=1, endCol=5
+ThreadID=13, numofBright=0,numOfDark=0, numofNormal=1
+ThreadID=14, startRow=1, startCol=5, endRow=1, endCol=6
+ThreadID=14, numofBright=0,numOfDark=1, numofNormal=0
+ThreadID=15, startRow=1, startCol=6, endRow=1, endCol=7
+ThreadID=15, numofBright=0,numOfDark=1, numofNormal=0
+ThreadID=16, startRow=1, startCol=7, endRow=2, endCol=0
+ThreadID=16, numofBright=0,numOfDark=1, numofNormal=0
+ThreadID=17, startRow=2, startCol=0, endRow=2, endCol=1
+ThreadID=17, numofBright=0,numOfDark=1, numofNormal=0
+ThreadID=18, startRow=2, startCol=1, endRow=2, endCol=2
+ThreadID=18, numofBright=0,numOfDark=1, numofNormal=0
+ThreadID=19, startRow=2, startCol=2, endRow=2, endCol=3
+ThreadID=19, numofBright=0,numOfDark=1, numofNormal=0
+ThreadID=20, startRow=2, startCol=3, endRow=2, endCol=4
+ThreadID=20, numofBright=0,numOfDark=1, numofNormal=0
+ThreadID=21, startRow=2, startCol=4, endRow=2, endCol=5
+ThreadID=21, numofBright=0,numOfDark=0, numofNormal=1
+ThreadID=22, startRow=2, startCol=5, endRow=2, endCol=6
+ThreadID=22, numofBright=0,numOfDark=1, numofNormal=0
+ThreadID=23, startRow=2, startCol=6, endRow=2, endCol=7
+ThreadID=23, numofBright=0,numOfDark=1, numofNormal=0
+ThreadID=4, startRow=0, startCol=3, endRow=0, endCol=4
+ThreadID=4, numofBright=0,numOfDark=1, numofNormal=0
+ThreadID=24, startRow=2, startCol=7, endRow=3, endCol=0
+ThreadID=24, numofBright=0,numOfDark=1, numofNormal=0
+ThreadID=25, startRow=3, startCol=0, endRow=3, endCol=1
+ThreadID=25, numofBright=0,numOfDark=1, numofNormal=0
+ThreadID=26, startRow=3, startCol=1, endRow=3, endCol=2
+ThreadID=26, numofBright=0,numOfDark=1, numofNormal=0
+ThreadID=27, startRow=3, startCol=2, endRow=3, endCol=3
+ThreadID=27, numofBright=0,numOfDark=1, numofNormal=0
+ThreadID=28, startRow=3, startCol=3, endRow=3, endCol=4
+ThreadID=28, numofBright=1,numOfDark=0, numofNormal=0
+ThreadID=29, startRow=3, startCol=4, endRow=3, endCol=5
+ThreadID=29, numofBright=1,numOfDark=0, numofNormal=0
+ThreadID=30, startRow=3, startCol=5, endRow=3, endCol=6
+ThreadID=30, numofBright=0,numOfDark=1, numofNormal=0
+ThreadID=31, startRow=3, startCol=6, endRow=3, endCol=7
+ThreadID=31, numofBright=0,numOfDark=1, numofNormal=0
+ThreadID=32, startRow=3, startCol=7, endRow=4, endCol=0
+ThreadID=32, numofBright=0,numOfDark=1, numofNormal=0
+ThreadID=33, startRow=4, startCol=0, endRow=4, endCol=1
+ThreadID=33, numofBright=0,numOfDark=1, numofNormal=0
+ThreadID=34, startRow=4, startCol=1, endRow=4, endCol=2
+ThreadID=34, numofBright=0,numOfDark=1, numofNormal=0
+ThreadID=35, startRow=4, startCol=2, endRow=4, endCol=3
+ThreadID=35, numofBright=0,numOfDark=1, numofNormal=0
+ThreadID=36, startRow=4, startCol=3, endRow=4, endCol=4
+ThreadID=36, numofBright=0,numOfDark=1, numofNormal=0
+ThreadID=37, startRow=4, startCol=4, endRow=4, endCol=5
+ThreadID=37, numofBright=0,numOfDark=0, numofNormal=1
+ThreadID=39, startRow=4, startCol=6, endRow=4, endCol=7
+ThreadID=39, numofBright=0,numOfDark=1, numofNormal=0
+ThreadID=38, startRow=4, startCol=5, endRow=4, endCol=6
+ThreadID=38, numofBright=0,numOfDark=1, numofNormal=0
+ThreadID=41, startRow=5, startCol=0, endRow=5, endCol=1
+ThreadID=40, startRow=4, startCol=7, endRow=5, endCol=0
+ThreadID=41, numofBright=0,numOfDark=1, numofNormal=0
+ThreadID=40, numofBright=0,numOfDark=1, numofNormal=0
+ThreadID=42, startRow=5, startCol=1, endRow=5, endCol=2
+ThreadID=42, numofBright=0,numOfDark=1, numofNormal=0
+ThreadID=43, startRow=5, startCol=2, endRow=5, endCol=3
+ThreadID=43, numofBright=0,numOfDark=1, numofNormal=0
+ThreadID=44, startRow=5, startCol=3, endRow=5, endCol=4
+ThreadID=44, numofBright=0,numOfDark=1, numofNormal=0
+ThreadID=45, startRow=5, startCol=4, endRow=5, endCol=5
+ThreadID=45, numofBright=0,numOfDark=0, numofNormal=1
+ThreadID=46, startRow=5, startCol=5, endRow=5, endCol=6
+ThreadID=46, numofBright=0,numOfDark=1, numofNormal=0
+ThreadID=47, startRow=5, startCol=6, endRow=5, endCol=7
+ThreadID=47, numofBright=0,numOfDark=1, numofNormal=0
+ThreadID=48, startRow=5, startCol=7, endRow=6, endCol=0
+ThreadID=48, numofBright=0,numOfDark=1, numofNormal=0
+ThreadID=49, startRow=6, startCol=0, endRow=6, endCol=1
+ThreadID=49, numofBright=0,numOfDark=1, numofNormal=0
+ThreadID=50, startRow=6, startCol=1, endRow=6, endCol=2
+ThreadID=50, numofBright=0,numOfDark=1, numofNormal=0
+ThreadID=51, startRow=6, startCol=2, endRow=6, endCol=3
+ThreadID=51, numofBright=0,numOfDark=1, numofNormal=0
+ThreadID=52, startRow=6, startCol=3, endRow=6, endCol=4
+ThreadID=52, numofBright=0,numOfDark=1, numofNormal=0
+ThreadID=53, startRow=6, startCol=4, endRow=6, endCol=5
+ThreadID=53, numofBright=0,numOfDark=0, numofNormal=1
+ThreadID=54, startRow=6, startCol=5, endRow=6, endCol=6
+ThreadID=54, numofBright=0,numOfDark=1, numofNormal=0
+ThreadID=55, startRow=6, startCol=6, endRow=6, endCol=7
+ThreadID=55, numofBright=0,numOfDark=1, numofNormal=0
+ThreadID=56, startRow=6, startCol=7, endRow=7, endCol=0
+ThreadID=56, numofBright=0,numOfDark=1, numofNormal=0
+ThreadID=57, startRow=7, startCol=0, endRow=7, endCol=1
+ThreadID=57, numofBright=0,numOfDark=1, numofNormal=0
+ThreadID=58, startRow=7, startCol=1, endRow=7, endCol=2
+ThreadID=58, numofBright=0,numOfDark=1, numofNormal=0
+ThreadID=59, startRow=7, startCol=2, endRow=7, endCol=3
+ThreadID=59, numofBright=0,numOfDark=1, numofNormal=0
+ThreadID=60, startRow=7, startCol=3, endRow=7, endCol=4
+ThreadID=60, numofBright=0,numOfDark=1, numofNormal=0
+ThreadID=61, startRow=7, startCol=4, endRow=7, endCol=5
+ThreadID=61, numofBright=0,numOfDark=1, numofNormal=0
+ThreadID=62, startRow=7, startCol=5, endRow=7, endCol=6
+ThreadID=62, numofBright=0,numOfDark=1, numofNormal=0
+ThreadID=63, startRow=7, startCol=6, endRow=7, endCol=7
+ThreadID=63, numofBright=0,numOfDark=1, numofNormal=0
+ThreadID=64, startRow=7, startCol=7, endRow=8, endCol=0
+ThreadID=64, numofBright=0,numOfDark=1, numofNormal=0
+ThreadID=65, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=65, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=66, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=66, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=67, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=67, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=68, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=68, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=69, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=69, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=70, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=70, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=71, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=71, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=72, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=72, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=73, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=73, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=74, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=74, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=75, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=75, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=76, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=76, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=77, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=77, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=78, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=78, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=79, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=79, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=80, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=80, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=81, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=81, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=82, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=82, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=83, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=83, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=84, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=84, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=85, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=85, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=86, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=86, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=87, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=87, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=88, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=88, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=89, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=89, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=90, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=11, startRow=1, startCol=2, endRow=1, endCol=3
+ThreadID=90, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=11, numofBright=0,numOfDark=1, numofNormal=0
+ThreadID=91, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=91, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=92, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=92, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=93, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=93, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=94, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=94, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=95, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=95, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=96, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=96, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=97, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=97, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=98, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=98, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=99, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=99, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=100, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=100, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=101, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=101, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=102, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=102, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=103, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=103, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=104, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=104, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=105, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=105, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=106, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=106, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=107, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=107, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=108, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=108, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=109, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=109, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=110, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=110, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=111, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=111, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=112, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=112, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=113, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=113, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=114, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=114, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=115, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=115, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=116, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=116, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=117, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=117, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=118, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=118, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=119, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=119, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=120, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=120, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=121, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=121, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=122, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=122, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=123, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=123, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=124, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=124, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=125, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=125, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=126, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=126, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=127, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=127, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=128, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=128, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=129, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=129, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=130, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=130, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=131, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=131, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=132, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=132, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=133, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=133, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=134, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=134, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=135, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=135, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=136, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=136, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=137, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=137, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=138, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=138, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=139, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=139, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=140, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=140, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=141, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=141, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=142, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=142, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=143, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=143, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=145, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=145, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=146, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=144, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=146, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=144, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=147, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=147, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=148, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=148, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=149, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=149, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=150, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=150, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=151, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=151, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=152, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=152, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=153, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=153, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=154, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=154, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=155, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=155, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=156, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=156, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=157, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=157, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=158, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=158, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=159, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=159, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=160, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=160, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=161, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=161, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=162, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=162, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=163, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=163, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=164, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=164, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=165, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=165, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=166, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=166, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=167, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=167, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=168, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=168, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=169, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=169, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=170, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=170, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=171, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=171, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=172, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=172, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=173, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=173, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=174, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=174, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=175, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=175, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=176, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=176, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=177, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=177, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=178, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=178, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=179, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=179, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=180, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=180, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=181, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=181, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=182, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=182, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=183, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=183, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=184, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=184, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=185, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=185, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=186, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=186, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=187, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=187, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=188, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=188, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=189, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=189, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=190, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=190, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=191, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=191, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=192, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=192, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=193, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=193, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=194, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=194, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=195, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=195, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=196, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=196, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=197, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=197, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=198, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=198, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=199, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=199, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=200, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=200, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=201, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=201, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=202, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=202, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=203, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=203, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=204, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=204, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=205, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=205, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=206, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=206, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=207, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=207, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=208, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=208, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=209, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=209, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=210, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=210, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=211, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=211, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=212, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=212, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=213, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=213, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=214, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=214, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=215, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=215, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=216, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=216, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=217, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=217, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=218, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=218, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=219, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=219, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=220, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=220, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=221, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=221, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=222, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=222, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=223, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=223, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=224, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=224, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=225, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=225, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=226, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=226, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=227, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=227, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=228, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=228, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=229, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=229, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=230, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=230, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=231, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=231, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=232, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=232, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=233, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=233, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=234, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=234, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=235, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=235, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=236, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=236, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=237, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=237, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=238, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=238, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=239, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=239, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=240, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=240, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=241, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=241, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=242, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=242, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=243, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=243, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=244, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=244, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=245, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=245, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=246, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=246, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=247, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=247, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=248, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=248, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=249, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=249, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=250, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=250, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=251, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=251, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=252, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=252, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=253, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=253, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=254, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=254, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=255, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=255, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=256, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=256, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=257, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=257, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=258, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=258, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=259, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=259, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=260, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=260, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=261, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=261, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=262, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=262, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=263, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=263, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=264, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=264, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=265, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=265, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=266, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=266, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=267, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=267, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=268, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=268, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=269, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=269, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=270, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=270, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=271, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=271, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=272, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=272, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=273, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=273, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=274, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=274, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=275, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=275, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=276, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=276, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=277, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=277, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=278, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=278, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=279, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=279, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=280, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=280, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=281, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=281, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=282, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=282, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=283, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=283, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=284, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=284, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=285, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=285, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=286, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=286, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=287, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=287, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=288, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=288, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=289, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=289, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=290, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=290, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=291, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=291, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=292, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=292, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=293, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=293, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=294, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=294, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=296, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=296, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=297, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=297, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=298, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=298, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=299, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=299, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=300, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=300, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=301, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=301, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=302, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=302, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=303, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=303, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=304, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=304, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=305, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=305, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=306, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=306, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=307, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=307, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=308, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=308, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=309, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=309, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=310, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=310, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=311, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=311, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=312, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=312, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=313, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=313, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=314, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=314, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=315, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=315, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=316, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=316, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=317, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=317, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=319, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=319, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=318, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=318, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=295, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=295, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=320, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=320, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=321, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=321, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=322, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=322, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=323, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=323, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=324, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=324, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=325, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=325, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=326, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=326, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=327, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=327, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=328, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=328, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=329, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=329, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=330, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=330, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=331, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=331, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=332, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=332, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=333, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=333, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=334, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=334, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=335, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=335, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=336, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=336, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=337, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=337, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=338, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=338, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=339, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=339, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=340, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=340, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=341, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=341, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=342, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=342, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=343, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=343, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=344, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=344, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=345, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=345, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=346, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=346, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=347, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=347, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=348, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=348, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=349, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=349, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=350, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=350, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=351, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=351, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=352, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=352, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=353, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=353, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=354, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=354, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=355, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=355, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=356, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=356, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=357, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=357, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=358, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=358, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=359, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=359, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=360, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=360, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=361, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=361, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=362, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=362, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=363, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=363, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=364, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=364, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=365, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=365, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=366, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=366, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=368, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=368, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=372, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=372, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=371, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=371, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=374, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=374, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=378, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=378, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=375, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=375, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=370, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=370, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=379, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=379, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=369, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=369, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=376, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=376, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=367, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=367, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=377, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=377, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=373, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=373, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=380, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=380, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=381, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=381, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=382, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=382, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=383, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=383, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=384, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=384, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=385, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=385, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=386, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=386, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=387, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=387, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=388, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=388, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=389, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=389, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=390, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=390, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=391, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=391, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=392, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=392, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=393, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=393, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=394, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=394, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=396, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=396, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=399, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=399, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=400, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=400, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=402, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=402, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=404, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=404, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=405, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=405, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=403, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=403, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=406, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=406, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=407, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=407, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=408, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=408, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=409, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=409, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=410, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=410, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=411, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=411, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=412, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=412, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=413, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=413, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=414, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=414, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=415, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=415, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=416, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=416, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=417, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=417, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=418, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=418, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=419, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=419, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=420, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=420, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=421, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=421, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=422, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=422, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=423, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=423, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=424, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=424, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=425, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=425, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=426, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=426, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=427, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=427, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=428, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=428, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=429, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=429, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=430, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=430, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=431, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=431, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=432, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=432, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=433, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=433, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=434, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=434, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=435, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=435, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=436, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=436, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=401, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=401, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=398, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=398, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=437, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=437, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=438, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=438, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=439, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=439, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=440, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=440, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=441, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=441, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=442, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=442, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=443, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=443, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=444, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=444, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=445, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=445, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=446, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=446, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=447, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=447, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=448, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=448, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=449, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=449, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=450, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=450, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=451, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=451, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=452, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=452, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=453, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=453, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=454, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=454, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=455, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=455, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=456, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=456, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=457, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=457, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=458, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=458, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=459, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=459, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=460, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=460, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=461, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=461, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=462, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=462, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=463, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=463, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=464, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=464, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=465, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=465, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=466, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=466, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=468, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=468, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=467, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=467, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=469, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=469, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=470, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=470, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=471, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=471, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=472, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=472, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=473, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=473, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=474, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=474, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=475, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=475, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=476, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=476, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=477, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=477, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=478, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=478, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=479, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=479, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=480, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=480, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=481, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=481, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=482, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=482, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=483, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=483, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=484, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=484, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=485, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=485, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=486, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=486, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=487, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=487, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=488, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=488, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=489, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=489, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=490, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=490, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=491, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=491, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=492, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=492, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=493, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=493, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=494, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=494, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=495, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=495, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=496, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=496, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=497, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=497, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=498, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=498, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=395, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=395, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=499, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=499, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=500, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=500, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=501, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=501, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=503, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=503, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=504, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=504, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=505, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=505, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=506, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=506, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=507, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=507, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=508, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=508, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=509, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=509, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=510, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=510, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=511, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=511, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=512, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=512, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=513, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=513, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=514, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=514, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=515, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=515, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=517, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=517, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=516, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=516, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=518, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=518, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=519, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=519, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=520, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=520, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=521, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=521, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=522, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=522, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=523, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=523, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=524, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=524, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=525, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=525, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=526, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=526, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=527, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=527, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=528, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=528, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=529, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=529, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=530, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=530, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=531, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=531, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=532, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=532, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=533, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=533, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=534, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=534, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=535, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=535, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=536, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=536, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=537, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=537, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=538, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=538, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=539, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=539, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=540, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=540, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=541, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=541, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=542, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=542, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=543, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=543, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=544, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=544, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=545, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=545, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=546, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=546, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=547, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=547, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=548, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=548, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=549, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=549, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=550, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=550, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=551, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=551, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=552, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=552, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=553, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=553, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=554, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=554, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=555, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=555, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=556, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=556, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=557, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=557, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=558, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=558, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=559, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=559, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=560, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=560, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=561, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=561, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=562, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=562, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=563, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=563, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=564, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=564, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=565, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=565, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=566, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=566, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=567, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=567, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=568, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=568, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=569, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=569, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=570, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=570, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=571, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=571, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=572, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=572, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=573, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=573, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=574, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=574, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=575, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=575, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=576, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=576, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=577, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=577, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=578, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=578, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=579, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=579, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=580, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=580, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=581, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=581, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=582, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=582, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=583, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=583, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=584, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=584, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=585, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=585, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=586, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=586, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=587, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=587, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=588, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=588, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=589, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=589, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=590, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=590, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=591, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=591, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=592, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=592, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=593, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=593, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=594, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=594, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=595, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=595, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=596, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=596, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=597, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=597, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=598, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=598, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=600, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=600, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=599, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=599, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=601, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=601, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=602, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=397, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=397, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=602, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=502, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=502, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=603, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=603, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=604, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=604, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=605, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=605, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=606, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=606, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=607, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=607, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=608, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=608, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=609, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=609, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=610, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=610, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=611, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=611, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=612, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=612, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=613, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=613, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=614, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=614, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=615, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=615, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=616, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=616, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=617, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=617, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=618, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=618, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=619, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=619, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=620, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=620, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=621, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=621, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=622, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=622, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=623, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=623, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=624, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=624, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=625, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=625, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=626, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=626, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=627, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=627, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=628, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=628, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=629, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=629, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=630, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=630, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=631, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=631, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=632, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=632, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=633, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=633, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=634, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=634, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=635, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=635, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=636, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=636, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=637, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=637, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=638, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=638, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=639, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=639, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=640, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=640, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=641, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=641, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=642, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=642, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=643, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=643, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=644, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=644, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=645, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=645, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=646, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=646, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=647, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=647, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=648, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=648, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=649, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=649, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=650, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=650, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=651, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=651, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=652, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=652, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=653, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=653, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=654, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=654, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=655, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=655, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=656, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=656, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=657, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=657, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=658, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=658, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=659, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=659, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=660, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=660, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=661, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=661, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=662, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=662, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=663, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=663, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=664, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=664, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=665, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=665, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=666, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=666, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=667, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=667, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=668, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=668, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=669, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=669, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=670, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=670, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=671, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=671, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=672, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=672, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=673, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=673, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=674, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=674, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=675, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=675, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=676, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=676, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=677, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=677, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=678, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=678, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=679, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=679, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=680, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=680, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=681, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=681, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=682, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=682, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=683, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=683, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=684, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=684, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=685, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=685, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=686, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=686, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=687, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=687, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=688, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=688, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=689, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=689, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=690, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=690, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=691, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=691, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=692, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=692, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=693, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=693, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=694, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=694, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=695, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=695, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=697, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=697, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=698, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=698, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=696, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=696, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=700, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=700, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=701, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=701, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=702, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=702, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=703, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=703, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=704, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=704, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=705, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=705, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=706, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=706, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=707, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=707, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=708, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=708, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=709, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=709, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=710, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=710, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=711, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=711, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=712, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=712, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=713, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=713, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=714, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=714, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=715, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=715, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=716, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=716, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=717, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=717, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=718, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=718, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=719, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=719, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=720, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=720, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=721, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=721, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=722, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=722, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=723, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=723, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=724, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=724, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=725, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=725, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=726, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=726, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=727, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=727, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=728, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=728, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=729, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=729, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=730, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=730, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=731, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=731, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=732, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=732, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=733, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=733, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=734, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=734, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=735, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=735, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=736, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=736, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=737, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=737, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=738, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=738, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=739, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=739, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=740, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=740, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=741, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=741, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=742, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=742, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=743, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=743, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=744, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=744, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=745, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=745, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=746, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=746, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=747, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=747, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=748, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=748, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=749, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=749, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=750, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=750, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=751, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=751, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=752, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=752, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=753, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=753, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=754, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=754, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=755, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=755, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=756, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=756, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=757, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=757, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=758, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=758, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=759, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=759, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=760, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=760, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=761, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=761, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=762, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=762, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=699, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=699, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=763, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=763, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=764, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=764, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=765, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=765, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=766, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=766, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=767, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=767, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=768, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=768, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=769, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=769, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=770, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=770, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=771, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=771, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=772, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=772, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=773, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=773, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=774, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=774, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=775, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=775, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=776, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=776, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=777, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=777, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=778, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=778, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=779, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=779, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=780, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=780, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=781, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=781, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=782, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=782, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=783, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=783, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=785, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=785, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=786, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=786, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=787, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=787, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=788, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=788, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=789, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=789, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=790, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=790, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=791, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=791, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=792, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=792, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=793, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=793, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=794, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=794, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=795, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=795, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=796, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=796, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=797, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=797, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=798, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=798, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=799, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=799, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=800, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=800, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=801, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=801, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=802, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=802, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=803, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=803, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=804, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=804, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=805, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=805, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=806, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=806, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=807, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=807, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=808, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=808, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=809, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=809, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=810, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=810, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=811, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=811, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=812, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=812, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=813, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=813, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=814, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=814, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=815, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=815, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=816, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=816, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=817, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=817, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=818, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=818, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=819, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=819, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=820, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=820, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=821, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=821, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=822, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=822, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=823, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=823, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=784, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=784, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=824, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=824, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=825, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=825, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=826, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=826, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=827, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=827, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=828, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=828, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=829, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=829, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=830, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=830, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=831, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=831, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=832, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=832, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=833, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=833, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=834, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=834, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=835, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=835, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=836, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=836, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=837, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=837, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=838, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=838, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=839, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=839, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=840, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=840, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=841, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=841, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=842, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=842, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=843, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=843, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=844, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=844, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=845, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=845, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=846, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=846, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=847, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=847, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=848, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=848, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=849, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=849, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=850, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=850, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=851, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=851, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=852, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=852, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=853, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=853, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=854, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=854, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=855, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=855, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=856, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=856, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=857, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=857, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=858, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=858, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=859, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=859, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=860, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=860, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=861, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=861, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=862, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=862, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=863, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=863, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=864, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=864, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=865, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=865, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=866, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=866, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=867, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=867, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=868, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=868, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=869, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=869, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=870, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=870, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=871, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=871, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=872, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=872, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=873, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=873, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=874, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=874, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=875, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=875, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=876, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=876, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=877, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=877, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=878, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=878, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=879, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=879, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=880, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=880, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=881, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=881, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=882, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=882, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=883, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=883, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=884, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=884, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=885, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=885, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=886, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=886, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=887, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=887, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=888, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=888, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=889, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=889, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=890, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=890, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=891, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=891, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=892, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=892, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=893, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=893, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=894, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=894, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=895, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=895, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=896, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=896, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=897, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=897, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=898, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=898, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=899, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=899, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=900, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=900, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=901, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=901, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=902, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=902, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=903, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=903, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=904, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=904, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=905, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=905, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=906, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=906, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=907, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=907, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=908, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=908, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=909, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=909, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=910, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=910, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=911, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=911, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=912, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=912, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=913, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=913, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=914, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=914, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=915, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=915, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=916, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=916, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=917, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=917, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=918, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=918, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=919, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=919, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=920, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=920, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=921, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=921, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=922, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=922, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=923, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=923, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=924, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=924, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=925, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=925, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=926, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=926, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=927, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=927, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=928, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=928, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=929, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=929, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=930, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=930, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=931, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=931, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=932, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=932, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=933, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=933, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=934, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=934, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=935, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=935, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=936, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=936, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=937, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=937, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=938, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=938, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=939, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=939, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=940, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=940, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=941, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=941, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=942, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=942, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=943, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=943, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=944, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=944, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=945, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=945, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=946, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=946, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=947, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=947, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=948, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=948, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=949, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=949, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=950, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=950, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=951, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=951, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=952, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=952, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=953, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=953, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=954, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=954, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=955, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=955, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=956, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=956, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=957, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=957, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=958, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=958, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=959, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=959, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=960, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=960, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=961, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=961, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=962, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=962, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=963, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=963, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=964, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=964, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=965, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=965, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=966, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=966, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=967, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=967, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=968, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=968, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=969, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=969, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=970, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=970, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=971, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=971, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=972, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=972, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=973, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=973, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=974, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=974, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=975, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=975, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=976, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=976, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=977, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=977, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=978, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=978, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=979, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=979, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=980, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=980, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=981, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=981, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=983, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=983, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=984, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=984, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=985, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=985, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=986, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=986, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=987, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=987, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=988, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=988, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=989, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=989, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=990, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=990, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=991, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=991, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=992, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=992, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=993, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=993, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=994, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=994, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=995, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=995, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=996, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=996, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=997, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=997, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=998, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=998, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=1000, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=1000, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=1001, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=1001, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=1002, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=1002, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=1003, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=1003, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=1004, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=1004, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=1005, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=1005, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=1006, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=1006, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=1007, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=1007, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=1008, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=1008, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=1009, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=1009, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=1010, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=1010, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=1011, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=1011, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=1012, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=1012, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=1013, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=1013, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=1014, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=1014, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=1015, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=1015, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=1016, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=1016, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=1017, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=1017, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=1018, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=1018, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=1019, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=1019, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=1020, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=1020, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=1021, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=1021, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=1022, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=1022, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=1023, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=1023, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=982, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=982, numofBright=0,numOfDark=0, numofNormal=0
+ThreadID=999, startRow=8, startCol=0, endRow=8, endCol=0
+ThreadID=999, numofBright=0,numOfDark=0, numofNormal=0
+Main: numOfBright=2, numOfDark=57, numOfNormal=5

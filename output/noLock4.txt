@@ -1,0 +1,9 @@
+ThreadID=0, startRow=0, startCol=0, endRow=2, endCol=0
+ThreadID=0, numofBright=0,numOfDark=15, numofNormal=1
+ThreadID=1, startRow=2, startCol=0, endRow=4, endCol=0
+ThreadID=2, startRow=4, startCol=0, endRow=6, endCol=0
+ThreadID=3, startRow=6, startCol=0, endRow=8, endCol=0
+ThreadID=3, numofBright=0,numOfDark=15, numofNormal=1
+ThreadID=2, numofBright=0,numOfDark=14, numofNormal=2
+ThreadID=1, numofBright=2,numOfDark=13, numofNormal=1
+Main: numOfBright=2, numOfDark=57, numOfNormal=5
