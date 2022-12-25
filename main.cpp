@@ -4,19 +4,21 @@
 #include <string>
 #include <fstream>
 #include <pthread.h>
-#include <mutex> 
+#include <mutex>
+
 using namespace std;
-mutex brightLock, darkLock, normalLock;
-int totalBright = 0;
-int totalDark = 0;
-int totalNormal = 0;
-// class declarations
+
+/*******************************
+    Class definitions
+*******************************/
+
 enum class PixelType
 {
     Dark,
     Bright,
     Normal
 };
+
 class Image
 {
 private:
@@ -39,20 +41,36 @@ public:
 
     PixelType getPixelType(int pixelX, int pixelY);
 
-    void readInputFile(ifstream& inputFile);
-    void writeOutputFile(ofstream& outputFile);
+    void readInputFile(ifstream &inputFile);
+    void writeOutputFile(ofstream &outputFile);
 };
-struct ThreadInfo {
+
+struct ThreadInfo
+{
     int id;
-    Image* inputImg;
-    Image* outputImg;
+    Image *inputImg;
+    Image *outputImg;
     int startPixel;
     int endPixel;
 };
-// function declarations
-int cstringToInt(char* cstring);
-void processImage(Image& inputImg, Image& outputImg, int workerThreads);
-int main(int argc, char** argv)
+
+/*******************************
+    Function declarations
+*******************************/
+
+int cstringToInt(char *cstring);
+void processImage(Image &inputImg, Image &outputImg, int workerThreads);
+
+/*******************************
+    Global variables
+*******************************/
+
+mutex brightLock, darkLock, normalLock;
+int totalBright = 0;
+int totalDark = 0;
+int totalNormal = 0;
+
+int main(int argc, char **argv)
 {
     int workerThreads = 1;
     if (argc == 2)
@@ -85,14 +103,17 @@ int main(int argc, char** argv)
     return 0;
 }
 
-// function definitions
-void* processPixels(void* Info)
+/*******************************
+    Main Function definitions
+*******************************/
+
+void *processPixels(void *Info)
 {
-    ThreadInfo* info = (ThreadInfo*)Info;
+    ThreadInfo *info = (ThreadInfo *)Info;
 
     int id = info->id;
-    Image* inputImg = info->inputImg;
-    Image* outputImg = info->outputImg;
+    Image *inputImg = info->inputImg;
+    Image *outputImg = info->outputImg;
     int startPixel = info->startPixel;
     int endPixel = info->endPixel;
 
@@ -107,7 +128,6 @@ void* processPixels(void* Info)
         int x = i % inputImg->getWidth(); // col
 
         int newValue = inputImg->getMedian(x, y, 3, 3);
-
 
         outputImg->setPixel(x, y, newValue);
 
@@ -141,27 +161,28 @@ void* processPixels(void* Info)
     pthread_exit(NULL);
 }
 
-
-void loadBalancing(int endPixelsArr[], int startPixelsArr[], int workerThreads, int totalPixels) {
+void loadBalancing(int endPixelsArr[], int startPixelsArr[], int workerThreads, int totalPixels)
+{
     int range = totalPixels / workerThreads;
     int remainder = totalPixels % workerThreads;
 
     endPixelsArr[0] = range;
     startPixelsArr[0] = 0;
-    for (int i = 1; i < workerThreads; i++) {
+    for (int i = 1; i < workerThreads; i++)
+    {
         endPixelsArr[i] = range + endPixelsArr[i - 1];
         startPixelsArr[i] = endPixelsArr[i - 1];
-        if (remainder > 0) {
+        if (remainder > 0)
+        {
             endPixelsArr[i]++;
             remainder--;
         }
     }
 }
 
-
-void loadblancing(int* start, int* end, int workThreads, int pixelSize, int index)
+void loadblancing(int *start, int *end, int workThreads, int pixelSize, int index)
 {
-    static int* arr = new int[workThreads + 1];
+    static int *arr = new int[workThreads + 1];
     float r = pixelSize / workThreads;
     int remainder = pixelSize % workThreads;
     if (arr[1] == 0)
@@ -178,7 +199,8 @@ void loadblancing(int* start, int* end, int workThreads, int pixelSize, int inde
                 *start = 0;
                 *end = r;
             }
-            *start = arr[index - 1] + 1; *end = arr[index];
+            *start = arr[index - 1] + 1;
+            *end = arr[index];
             return;
         }
         else
@@ -196,16 +218,18 @@ void loadblancing(int* start, int* end, int workThreads, int pixelSize, int inde
             *end = r;
             return;
         }
-        *start = arr[index - 1] + 1; *end = arr[index];
+        *start = arr[index - 1] + 1;
+        *end = arr[index];
         return;
     }
 }
-void processImage(Image& inputImg, Image& outputImg, int workerThreads)
+
+void processImage(Image &inputImg, Image &outputImg, int workerThreads)
 {
-    pthread_t* threads = new pthread_t[workerThreads];
-    int* startPixel = new int[workerThreads];
-    int* endPixel = new int[workerThreads];
-    ThreadInfo* Info = new ThreadInfo[workerThreads];
+    pthread_t *threads = new pthread_t[workerThreads];
+    int *startPixel = new int[workerThreads];
+    int *endPixel = new int[workerThreads];
+    ThreadInfo *Info = new ThreadInfo[workerThreads];
     loadBalancing(endPixel, startPixel, workerThreads, (inputImg.getWidth() * inputImg.getHeight()));
     /*int start;
     int end;*/
@@ -214,14 +238,17 @@ void processImage(Image& inputImg, Image& outputImg, int workerThreads)
     {
         /*loadblancing(&start,&end,workerThreads, inputImg.getWidth() * inputImg.getHeight(), i);
         printf("start=%d end=%d  %d\n",start,end,i);*/
-        if (startPixel[i] == endPixel[i]) { continue; }
+        if (startPixel[i] == endPixel[i])
+        {
+            continue;
+        }
         Info[i].id = i;
         Info[i].inputImg = &inputImg;
         Info[i].outputImg = &outputImg;
         Info[i].startPixel = startPixel[i];
         Info[i].endPixel = endPixel[i];
 
-        pthread_create(&threads[i], NULL, processPixels, (void*)&Info[i]);
+        pthread_create(&threads[i], NULL, processPixels, (void *)&Info[i]);
     }
 
     for (int i = 0; i < workerThreads; i++)
@@ -229,7 +256,11 @@ void processImage(Image& inputImg, Image& outputImg, int workerThreads)
         pthread_join(threads[i], NULL);
     }
 }
-// class functions
+
+/*******************************
+    Image class implementation
+*******************************/
+
 Image::Image(int width, int height)
 {
     this->width = width;
@@ -250,17 +281,20 @@ Image::Image(int width, int height)
 Image::~Image()
 {
 }
+
 void Image::setPixel(int pixelX, int pixelY, int value)
 {
 
     image[pixelY][pixelX] = value;
 };
+
 int Image::getPixel(int pixelX, int pixelY)
 {
     if (pixelX < 0 || pixelY < 0 || pixelX >= width || pixelY >= height)
         return 0;
     return image[pixelY][pixelX];
 };
+
 void Image::getBox(int arrBox[], int pixelX, int pixelY, int boxWidth, int boxHeight)
 {
     pixelX--;
@@ -276,6 +310,7 @@ void Image::getBox(int arrBox[], int pixelX, int pixelY, int boxWidth, int boxHe
         }
     }
 };
+
 PixelType Image::getPixelType(int pixelX, int pixelY)
 {
     int value = getPixel(pixelX, pixelY);
@@ -286,7 +321,8 @@ PixelType Image::getPixelType(int pixelX, int pixelY)
     else
         return PixelType::Normal;
 }
-void Image::readInputFile(ifstream& inputFile)
+
+void Image::readInputFile(ifstream &inputFile)
 {
     int value;
     for (int i = 0; i < height; i++)
@@ -298,7 +334,8 @@ void Image::readInputFile(ifstream& inputFile)
         }
     }
 };
-void Image::writeOutputFile(ofstream& outputFile)
+
+void Image::writeOutputFile(ofstream &outputFile)
 {
     outputFile << "The output image is" << endl;
     for (int i = 0; i < height; i++)
@@ -310,19 +347,23 @@ void Image::writeOutputFile(ofstream& outputFile)
         outputFile << endl;
     }
 };
+
 int Image::getMedian(int pixelX, int pixelY, int boxWidth, int boxHeight)
 {
 
     int s = boxHeight * boxWidth;
     int med = s / 2;
-    int* arr = new int[s];
+    int *arr = new int[s];
     getBox(arr, pixelX, pixelY, boxWidth, boxHeight);
     sort(arr, arr + s);
     return arr[med];
 }
 
+/*******************************
+    Utility functions
+*******************************/
 
-int cstringToInt(char* cstring)
+int cstringToInt(char *cstring)
 {
     int result = 0;
     int i = 0;
