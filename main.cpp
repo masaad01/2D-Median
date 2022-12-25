@@ -123,7 +123,7 @@ void *processPixels(void *var)
     int bright = 0;
     int dark = 0;
     int normal = 0;
-    printf("ThreadID=%d, startRow=%d, startCol=%d, endRow=%d, endCol=%d\n", id, startPixel / inputImg->getWidth(), startPixel % inputImg->getWidth(), (endPixel - 1) / inputImg->getWidth(), (endPixel - 1) % inputImg->getWidth());
+    printf("ThreadID=%d, startRow=%d, startCol=%d, endRow=%d, endCol=%d\n", id, startPixel / inputImg->getWidth(), startPixel % inputImg->getWidth(), endPixel / inputImg->getWidth(), endPixel % inputImg->getWidth());
 
     for (int i = startPixel; i < endPixel; i++)
     {
