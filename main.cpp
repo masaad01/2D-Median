@@ -1,8 +1,8 @@
 #include <iostream>
+#include <fstream>
 #include <vector>
 #include <algorithm>
 #include <string>
-#include <fstream>
 #include <pthread.h>
 #include <mutex>
 
@@ -110,9 +110,9 @@ int main(int argc, char **argv)
     Main Function definitions
 *******************************/
 
-void *processPixels(void *Info)
+void *processPixels(void *var)
 {
-    ThreadInfo *info = (ThreadInfo *)Info;
+    ThreadInfo *info = (ThreadInfo *)var;
 
     int id = info->id;
     Image *inputImg = info->inputImg;
@@ -190,17 +190,9 @@ void processImage(Image &inputImg, Image &outputImg, int workerThreads)
     int *endPixel = new int[workerThreads];
     ThreadInfo *Info = new ThreadInfo[workerThreads];
     loadBalancing(endPixel, startPixel, workerThreads, (inputImg.getWidth() * inputImg.getHeight()));
-    /*int start;
-    int end;*/
 
     for (int i = 0; i < workerThreads; i++)
     {
-        /*loadblancing(&start,&end,workerThreads, inputImg.getWidth() * inputImg.getHeight(), i);
-        printf("start=%d end=%d  %d\n",start,end,i);*/
-        // if (startPixel[i] == endPixel[i])
-        // {
-        //     continue;
-        // }
         Info[i].id = i;
         Info[i].inputImg = &inputImg;
         Info[i].outputImg = &outputImg;
@@ -214,6 +206,11 @@ void processImage(Image &inputImg, Image &outputImg, int workerThreads)
     {
         pthread_join(threads[i], NULL);
     }
+
+    delete[] threads;
+    delete[] startPixel;
+    delete[] endPixel;
+    delete[] Info;
 }
 
 /*******************************
@@ -310,12 +307,18 @@ void Image::writeOutputFile(ofstream &outputFile)
 int Image::getMedian(int pixelX, int pixelY, int boxWidth, int boxHeight)
 {
 
-    int s = boxHeight * boxWidth;
-    int med = s / 2;
-    int *arr = new int[s];
+    int arrLength = boxHeight * boxWidth;
+    int middle = arrLength / 2;
+    
+    int *arr = new int[arrLength];
+    
     getBox(arr, pixelX, pixelY, boxWidth, boxHeight);
-    sort(arr, arr + s);
-    return arr[med];
+    sort(arr, arr + arrLength);
+
+    int result = arr[middle];
+    delete[] arr;
+
+    return result;
 }
 
 /*******************************
