@@ -183,52 +183,6 @@ void loadBalancing(int endPixelsArr[], int startPixelsArr[], int workerThreads, 
     }
 }
 
-void loadblancing(int *start, int *end, int workThreads, int pixelSize, int index)
-{
-    static int *arr = new int[workThreads + 1];
-
-    float r = pixelSize / workThreads;
-    int remainder = pixelSize % workThreads;
-    if (arr[1] == 0)
-    {
-        arr[0] = 0;
-        if (!remainder)
-        {
-            for (int i = 1; i <= workThreads; i++)
-            {
-                arr[i] = arr[i - 1] + r;
-            }
-            if (index == 0)
-            {
-                *start = 0;
-                *end = r;
-            }
-            *start = arr[index - 1] + 1;
-            *end = arr[index];
-
-            return;
-        }
-        else
-        {
-
-            for (int i = 1; i <= remainder; i++)
-                arr[i] += 1;
-        }
-    }
-    else
-    {
-        if (index == 0)
-        {
-            *start = 0;
-            *end = r;
-            return;
-        }
-        *start = arr[index - 1] + 1;
-        *end = arr[index];
-
-        return;
-    }
-}
 void processImage(Image &inputImg, Image &outputImg, int workerThreads)
 {
     pthread_t *threads = new pthread_t[workerThreads];
@@ -243,10 +197,10 @@ void processImage(Image &inputImg, Image &outputImg, int workerThreads)
     {
         /*loadblancing(&start,&end,workerThreads, inputImg.getWidth() * inputImg.getHeight(), i);
         printf("start=%d end=%d  %d\n",start,end,i);*/
-        if (startPixel[i] == endPixel[i])
-        {
-            continue;
-        }
+        // if (startPixel[i] == endPixel[i])
+        // {
+        //     continue;
+        // }
         Info[i].id = i;
         Info[i].inputImg = &inputImg;
         Info[i].outputImg = &outputImg;
