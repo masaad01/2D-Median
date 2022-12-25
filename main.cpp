@@ -186,6 +186,7 @@ void loadBalancing(int endPixelsArr[], int startPixelsArr[], int workerThreads, 
 void loadblancing(int *start, int *end, int workThreads, int pixelSize, int index)
 {
     static int *arr = new int[workThreads + 1];
+
     float r = pixelSize / workThreads;
     int remainder = pixelSize % workThreads;
     if (arr[1] == 0)
@@ -204,6 +205,7 @@ void loadblancing(int *start, int *end, int workThreads, int pixelSize, int inde
             }
             *start = arr[index - 1] + 1;
             *end = arr[index];
+
             return;
         }
         else
@@ -223,10 +225,10 @@ void loadblancing(int *start, int *end, int workThreads, int pixelSize, int inde
         }
         *start = arr[index - 1] + 1;
         *end = arr[index];
+
         return;
     }
 }
-
 void processImage(Image &inputImg, Image &outputImg, int workerThreads)
 {
     pthread_t *threads = new pthread_t[workerThreads];
