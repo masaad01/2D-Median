@@ -120,7 +120,7 @@ void *processPixels(void *var)
     int endPixel = info->endPixel;
 
     if(startPixel == endPixel){
-        printf("ThreadID=%d Thread is EMPTY.",id);
+        printf("ThreadID=%d Thread is EMPTY.\n",id);
         return nullptr;
     }
 
