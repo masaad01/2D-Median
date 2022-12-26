@@ -1,3 +1,10 @@
+/**
+ * Contributors:
+    * Suhaib Bilal Awwad 139590
+    * Mohammad Omar A'mir 138185
+    * Mohammad Adnan Saad 138092
+*/
+
 #include <iostream>
 #include <fstream>
 #include <vector>
