@@ -61,7 +61,6 @@ struct ThreadInfo
 int cstringToInt(char *cstring);
 void *processPixels(void *Info);
 void loadBalancing(int endPixelsArr[], int startPixelsArr[], int workerThreads, int totalPixels);
-void loadblancing(int *start, int *end, int workThreads, int pixelSize, int index);
 void processImage(Image &inputImg, Image &outputImg, int workerThreads);
 
 /*******************************
@@ -119,6 +118,11 @@ void *processPixels(void *var)
     Image *outputImg = info->outputImg;
     int startPixel = info->startPixel;
     int endPixel = info->endPixel;
+
+    if(startPixel == endPixel){
+        printf("ThreadID=%d Thread is EMPTY.",id);
+        return;
+    }
 
     int bright = 0;
     int dark = 0;
